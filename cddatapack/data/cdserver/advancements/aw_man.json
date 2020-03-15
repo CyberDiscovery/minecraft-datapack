@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Aw man!"
+        },
+        "description": {
+            "text": "Die to a Creeper "
+        },
+        "icon": {
+            "item": "minecraft:creeper_head"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "boom": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "boom"
+        ]
+    ],
+    "parent":"cdserver:exploration_root"
+}

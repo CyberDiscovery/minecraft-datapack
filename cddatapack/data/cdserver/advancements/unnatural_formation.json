@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Unnatural Formation"
+        },
+        "description": {
+            "text": "Surely it must lead somewhere?"
+        },
+        "icon": {
+            "item": "minecraft:iron_helmet"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "dummy"
+        ]
+    ],
+	"parent": "cdserver:do_not_feed"
+}

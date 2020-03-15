@@ -1,0 +1,48 @@
+{
+    "display": {
+        "title": {
+            "text": "Wannabe Santa Claus"
+        },
+        "description": {
+            "text": "Try to go down a chimney in the Spawn Area"
+        },
+        "icon": {
+            "item": "minecraft:cobblestone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "locationTrigger": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 741,
+                        "max": 744
+                    },
+                    "y": {
+                        "min": 75,
+                        "max": 78
+                    },
+                    "z": {
+                        "min": -424,
+                        "max": -421
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "locationTrigger"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    },
+    "parent":"cdserver:exploration_root"
+}

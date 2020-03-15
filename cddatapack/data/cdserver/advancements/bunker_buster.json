@@ -1,0 +1,49 @@
+{
+    "display": {
+        "title": {
+            "text": "Bunker Buster",
+            "bold": false
+        },
+        "description": {
+            "text": "Make it into the bunker within the Spawn Area"
+        },
+        "icon": {
+            "item": "minecraft:iron_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "waterfallPrompt": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 646,
+                        "max": 653
+                    },
+                    "y": {
+                        "min": 68,
+                        "max": 70
+                    },
+                    "z": {
+                        "min": -473,
+                        "max": -467
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "waterfallPrompt"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "cdserver:exploration_root"
+}

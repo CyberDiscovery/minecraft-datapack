@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "I can read!"
+        },
+        "description": {
+            "text": "Adknowledge the existence of these advancements in the Spawn Area"
+        },
+        "icon": {
+            "item": "minecraft:book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmdonly": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "cmdonly"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "cdserver:exploration_root"
+}
