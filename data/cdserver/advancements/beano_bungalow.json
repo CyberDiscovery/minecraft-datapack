@@ -1,0 +1,49 @@
+{
+    "display": {
+        "title": {
+            "text": "Trespassing or something"
+        },
+        "description": {
+            "text": "Visit Beano's Bungalow in the Spawn Area"
+        },
+        "icon": {
+            "item": "minecraft:iron_door"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "locationEntry": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 654,
+                        "max": 660
+                    },
+                    "y": {
+                        "min": 62,
+                        "max": 66
+                    },
+                    "z": {
+                        "min": -430,
+                        "max": -424
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "locationEntry"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "cdserver:exploration_root"
+}
+

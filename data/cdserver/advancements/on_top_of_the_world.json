@@ -1,0 +1,48 @@
+{
+    "display": {
+        "title": {
+            "text": "On Top of the World"
+        },
+        "description": {
+            "text": "Scale an Amusement within the Spawn Area"
+        },
+        "icon": {
+            "item": "minecraft:cookie"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "locationTrigger": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 703,
+                        "max": 711
+                    },
+                    "y": {
+                        "min": 114,
+                        "max": 117
+                    },
+                    "z": {
+                        "min": -498,
+                        "max": -492
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "locationTrigger"
+        ]
+    ],
+    "rewards": {
+        "experience": 25
+    },
+    "parent":"cdserver:exploration_root"
+}

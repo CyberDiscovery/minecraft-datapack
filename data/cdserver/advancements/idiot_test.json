@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Idiot Test"
+        },
+        "description": {
+            "text": "Ignore the warnings in the Spawn Area"
+        },
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmdonly": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "cmdonly"
+        ]
+    ],
+    "rewards": {
+        "experience": 0
+    },
+    "parent": "cdserver:exploration_root"
+}
